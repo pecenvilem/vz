@@ -1,0 +1,90 @@
+// specifications for CAN data transmissions
+// DON'T use in-line comments after '#define'!!!
+
+// CANID - message code (unknown codes are treated as DEFAULT_ATP_IN)
+// CANDLC - message length [bytes] (defaults to 1, if omitted)
+// CANMULT - message data multiplier (defaults to 1, if omitted)
+// CANSGN - message data is a signed type: 1-True, 0-False (defaults to False, if omitted)
+
+// Auto-generated from 'can_config.json' file on: 2021_08_09 16:06
+
+#define CANID_SPEED 1
+#define CANDLC_SPEED 2
+#define CANMULT_SPEED 100
+#define CANSGN_SPEED 1
+
+#define CANID_TRAIN_LINE_PRESSURE 2
+#define CANDLC_TRAIN_LINE_PRESSURE 1
+#define CANMULT_TRAIN_LINE_PRESSURE 20
+#define CANSGN_TRAIN_LINE_PRESSURE 0
+
+#define CANID_BRAKE_CYLINDER_PRESSURE 3
+#define CANDLC_BRAKE_CYLINDER_PRESSURE 1
+#define CANMULT_BRAKE_CYLINDER_PRESSURE 20
+#define CANSGN_BRAKE_CYLINDER_PRESSURE 0
+
+#define CANID_SIGNAL_CODE 4
+#define CANDLC_SIGNAL_CODE 1
+#define CANMULT_SIGNAL_CODE 1
+#define CANSGN_SIGNAL_CODE 0
+
+#define CANID_VIGILANCE_BUTTON 5
+#define CANDLC_VIGILANCE_BUTTON 1
+#define CANMULT_VIGILANCE_BUTTON 1
+#define CANSGN_VIGILANCE_BUTTON 0
+
+#define CANID_DRIVING_LEAVER 6
+#define CANDLC_DRIVING_LEAVER 1
+#define CANMULT_DRIVING_LEAVER 1
+#define CANSGN_DRIVING_LEAVER 0
+
+#define CANID_DIRECTION_LEAVER 7
+#define CANDLC_DIRECTION_LEAVER 1
+#define CANMULT_DIRECTION_LEAVER 1
+#define CANSGN_DIRECTION_LEAVER 0
+
+#define CANID_EP_VALVE 8
+#define CANDLC_EP_VALVE 1
+#define CANMULT_EP_VALVE 1
+#define CANSGN_EP_VALVE 0
+
+#define CANID_BRIGHTNESS 9
+#define CANDLC_BRIGHTNESS 1
+#define CANMULT_BRIGHTNESS 1
+#define CANSGN_BRIGHTNESS 0
+
+#define CANID_VOLUME 10
+#define CANDLC_VOLUME 1
+#define CANMULT_VOLUME 1
+#define CANSGN_VOLUME 0
+
+#define CANID_LS_SWITCH 11
+#define CANDLC_LS_SWITCH 1
+#define CANMULT_LS_SWITCH 1
+#define CANSGN_LS_SWITCH 0
+
+#define CANID_LS_INDICATOR 12
+#define CANDLC_LS_INDICATOR 1
+#define CANMULT_LS_INDICATOR 1
+#define CANSGN_LS_INDICATOR 0
+
+#define CANID_CONTROL_SWITCH 13
+#define CANDLC_CONTROL_SWITCH 1
+#define CANMULT_CONTROL_SWITCH 1
+#define CANSGN_CONTROL_SWITCH 0
+
+#define CANID_WHISTLE 14
+#define CANDLC_WHISTLE 1
+#define CANMULT_WHISTLE 1
+#define CANSGN_WHISTLE 0
+
+#define CANID_BATTERY 15
+#define CANDLC_BATTERY 1
+#define CANMULT_BATTERY 1
+#define CANSGN_BATTERY 0
+
+#define CANID_EMP 16
+#define CANDLC_EMP 1
+#define CANMULT_EMP 1
+#define CANSGN_EMP 0
+
